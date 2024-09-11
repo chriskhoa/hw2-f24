@@ -28,6 +28,7 @@ p {
 /* 7 */
 img {
   width: 250px;
+  /* the next 2 lines are suggested by chatgpt using prompt "css center image" */
   display: block;
   margin: auto;
   border: 10px dashed #ffffff;
@@ -55,4 +56,17 @@ div {
   border: 0 0 2px 5px;
 }
 
-/* testing */
+/* 11 */
+.blue {
+  background-color: #0000ff;
+  text-align: left;
+  margin-right: 50px;
+  border: 2px 5px 0 0;
+}
+
+.blue p,
+.blue h2 {
+  color: #c4c4c4;
+}
+
+/* 12 */
